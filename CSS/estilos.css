@@ -9,10 +9,42 @@ body
 
 }
 
+#cabecera {
+
+    background: rgb(68, 68, 160);
+    color: white;
+    text-align: left;
+    font-weight: bold;
+    margin: 0;
+    padding: 0.5em;
+
+    -webkit-box-shadow: 0px 16px 44px -9px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 16px 44px -9px rgba(0,0,0,0.75);
+    box-shadow: 0px 16px 44px -9px rgba(0,0,0,0.75);
+}
+
+
+#cabecera #tagline {
+padding: 0 0 0 1em;
+color: white;
+font-weight: normal;
+font-size: 0.8em;
+
+}
+
+
+
 #container {
     width: 70%;
-    padding: 1em;
-    text-align: left;
+    margin-left: 180px;
+    padding: 0;
+    text-align: center;
     border: 1px solid blue;
 }
 
+#post {
+    padding: 1em;
+
+
+
+}
